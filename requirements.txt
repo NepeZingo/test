@@ -2,3 +2,4 @@ Flask
 werkzeug
 flask_httpauth
 pyopenssl
+pytest

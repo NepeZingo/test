@@ -13,3 +13,8 @@
 [2022-04-28 14:23:06,188] INFO in _internal: 192.168.100.103 - - [28/Apr/2022 14:23:06] "[31m[1mGET /hello HTTP/1.1[0m" 401 -
 [2022-04-28 14:23:09,020] INFO in _internal: 192.168.100.103 - - [28/Apr/2022 14:23:09] "[31m[1mGET /hello HTTP/1.1[0m" 401 -
 [2022-04-28 14:23:12,795] INFO in _internal: 192.168.100.103 - - [28/Apr/2022 14:23:12] "GET /hello HTTP/1.1" 200 -
+[2022-04-28 14:32:13,693] INFO in _internal:  * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on https://127.0.0.1:3000
+ * Running on https://192.168.100.103:3000 (Press CTRL+C to quit)
+[2022-04-28 14:32:20,403] INFO in _internal: 192.168.100.103 - - [28/Apr/2022 14:32:20] "GET /hello HTTP/1.1" 200 -

@@ -7,19 +7,14 @@ import ssl
 import json
 import os
 import datetime
+import authentication
 
 app = Flask(__name__)
 auth = HTTPBasicAuth()
 
 @auth.verify_password
 def verify_password(username, password):
-    if username and password :
-        if username == "jonathan" :
-            return True
-        else:
-            return False
-    else:
-        return False
+    return authentication.validate(username, password)
 
 @app.route('/hello', methods=['GET'])
 @auth.login_required
